@@ -1,0 +1,133 @@
+/* Empty. Add your own CSS if you like */
+
+img{
+	width:100%;
+height:100%;
+}
+#div1 { background: #DDD; width: 186px;height: 310px; position: absolute;}
+#div2 { background: #AAA;  width: 186px;height: 310px; margin-left: 186px;  position: absolute;}
+#div3 { background: #777;  width: 186px;height: 310px; margin-top: 310px;  position: absolute;}
+#div4 { background: #444;  width: 186px;height: 310px; margin-top: 310px; margin-left: 186px;  position: absolute;}
+.board
+{
+	width: 100%;
+	height: 100%;
+}
+.small
+{
+	    float: left;
+    width: calc(372px/8);
+    height: 76px;
+    background-color: #d3a15f;
+     
+    display: table-cell;
+    vertical-align:middle;
+    border: 0.5px solid #333;
+}
+.mid
+{
+	float: left;
+    width: calc(372px/4);
+    height: 76px;
+    background-color: #c88937;
+     
+    display: table-cell;
+    vertical-align:middle;
+    border: 0.5px solid #333;
+
+}
+.large
+{
+	float: left;
+    width: calc(372px/2);
+    height: 76px;
+    background-color: #b47b31;
+     
+
+    display: table-cell;
+    vertical-align:middle;
+    border: 0.5px solid #333;
+}
+#mid
+{
+	width: 100%;
+	height: 100%;
+	font-size: 25px;
+	text-align: center;
+	background-color: #c88937;
+}
+#text
+{
+	margin-top: 25px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.title1
+{
+	text-align: right;
+}
+.table
+{
+	width: 280px;
+	height: 30px;
+	
+	margin-left: 80px;
+	margin-top: 60px;
+}
+.table1
+{
+	width: 30px;
+	height: 300px;
+	
+	margin-left: 50px;
+	position: absolute;
+}
+.table2
+{
+width: 280px;
+	height: 300px;
+	
+	margin-left: 80px;	
+	position: absolute;
+}
+input
+{
+	width: 100%; 
+     box-sizing: border-box;
+
+}
+td
+{
+	 border: 1px solid black;
+}
+.small2
+{
+	width: 20px;
+	height: 40px;
+}
+#ff{ 
+position: absolute;
+margin-top: -15px; 
+margin-left: 15px;     
+width:30px;
+	height:30px;
+	
+	border-radius:100%;
+	text-align:center;
+	border: 2px solid black;
+	
+}
+span
+{
+    line-height: normal;
+    display:inline-block;
+    vertical-align: middle;
+}
+.Cal
+{
+	
+	margin-top: 350px;
+	margin-left: 160px;
+	color: 'blue';
+}
